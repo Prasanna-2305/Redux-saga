@@ -2,7 +2,7 @@ import { combineReducers } from "redux";
 import fetchUser from "./api";
 
 const rootReducer = combineReducers({
-    fetchUser,
+    sagas:fetchUser,
 })
 
 export default rootReducer;
